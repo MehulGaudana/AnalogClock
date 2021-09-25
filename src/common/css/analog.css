@@ -1,0 +1,28 @@
+.analogClock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+.second {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border: 1px solid;
+}
+.secondArrow {
+  border: 1px solid;
+  height: 80px;
+  transform: translateY(-98%);
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
